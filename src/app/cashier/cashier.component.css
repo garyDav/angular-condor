@@ -1,0 +1,11 @@
+.mesa-corta {
+  width: 220px;
+  height: 160px;
+  background-image: url("../../assets/img/mesa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid #574a35;
+  border-radius: 10px;
+}
