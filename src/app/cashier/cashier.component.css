@@ -1,3 +1,14 @@
+.container {
+  background: red;
+  height: 400px;
+  margin: 32px auto;
+  width: 90%;
+}
+.grid-caja {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat()
+}
+
 .mesa-corta {
   width: 220px;
   height: 160px;
