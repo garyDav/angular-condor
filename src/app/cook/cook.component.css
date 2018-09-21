@@ -107,7 +107,7 @@
   height: 100px;
   /* background-color: #3F51B5; 500 */
   color: white;
-  overflow: auto;
+  overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
