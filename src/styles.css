@@ -25,3 +25,21 @@ body, input[text], button {
   font-family: 'Roboto', Helvetica, sans-serif, Arial;
   font-weight: normal;
 }
+
+
+img[alt] {
+  display: block;
+  height: 100%;
+  color: #0000;
+  position: relative;
+}
+img[alt]:after {
+  display: block;
+  content: "";
+  background: #455A64;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
